@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.onnx
+data/raw/
+data/processed/
+runs/
+.pytest_cache/
+.DS_Store
