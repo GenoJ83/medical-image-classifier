@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("torch")
 """Unit tests for dataset shapes, transforms, and neural network layers."""
 import torch
 from src.data.dataset import SyntheticChestXRayDataset

@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("torch")
 """Tests for Test-Time Augmentation."""
 import torch
 from src.models.baseline_cnn import BaselineCNN
